@@ -12,8 +12,6 @@
 name: "CodeQL"
 
 on: 
-  push
-  pull_request
   workflow_dispatch:
     paths:
     - '**.py'  
