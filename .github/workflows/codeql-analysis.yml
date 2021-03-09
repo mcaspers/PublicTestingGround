@@ -11,10 +11,7 @@
 #
 name: "CodeQL"
 
-on: 
-  workflow_dispatch:
-    paths:
-    - '**.py'  
+on: [workflow_dispatch]
 
 jobs:
   analyze:
